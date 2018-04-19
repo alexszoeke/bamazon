@@ -83,7 +83,6 @@ function start() {
                         function (error) {
                             if (error) throw error;
                             console.log("Your order was placed! \n Total price: $" + parseFloat(answer.quantity * chosenItem.price).toFixed(2));
-                            start();
                         }
                     );
                 }
